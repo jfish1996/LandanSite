@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "tradegothic";
+  src: url("../../../../assets/fonts/trade-gothic-bold-font-webfont.woff2")
+      format("woff2"),
+    url("../../../../assets/fonts/trade-gothic-bold-font-webfont.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ContentHolder {
+  background-color: white;
+  justify-content: center;
+  height: 100vh;
+  flex: 1;
+  overflow: scroll;
+  z-index: 0;
+  margin-left: 1rem;
+}
+
+.ProjectsOverview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ThreadFeed {
+  display: flex;
+  flex-direction: column;
+}
+
+.Header {
+  font-size: 3rem;
+  margin: 3%;
+  display: block;
+  font-weight: 700;
+}
+
+.Box {
+  background-color: #e1e9f7;
+  margin: 12px;
+  width: 150px;
+  height: 150px;
+}
+
+.ProjectContainer .Box:hover {
+  border: 2px solid pink;
+}
+
+.BoxDisplay2 {
+  background-color: #e1e9f7;
+  margin: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProjectContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ContentContainerDisplay2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.blurb {
+  margin-left: 2.5rem;
+  width: 40%;
+  line-height: 1.6;
+  font-size: 0.8em;
+}

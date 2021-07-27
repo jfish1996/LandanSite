@@ -1,0 +1,11 @@
+.viewBox {
+  width: 30px;
+  height: 40px;
+  background-color: aqua;
+  border: 2px solid transparent;
+}
+
+.viewBox:hover {
+  border: 2px solid pink;
+  overflow: hidden;
+}

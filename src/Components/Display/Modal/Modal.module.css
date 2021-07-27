@@ -1,0 +1,24 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.ModalContent {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* padding: 20px; */
+  border: 1px solid #888;
+  width: 50%;
+  position: fixed;
+  top: 0;
+  left: 35%;
+  /* width: 100%; */
+  /* height: 100vh; */
+  height: 25%;
+  z-index: 999;
+}

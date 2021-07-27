@@ -1,0 +1,21 @@
+.ImgContainer {
+  width: 90%;
+  height: 600px;
+  object-fit: fill;
+}
+
+.Container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.Centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,10 @@
+/* .Layout {
+  display: flex;
+  flex-direction: column;
+} */
+
+/* MEDIA QUERY */
+.Layout {
+  display: flex;
+  justify-content: flex-start;
+}
